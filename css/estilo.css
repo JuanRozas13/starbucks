@@ -3,10 +3,6 @@ body
     margin: 0px;
 }
 
-header
-{
-}
-
 .header-linha
 {
     background-color:  #117050;
@@ -71,4 +67,32 @@ header
     width: 24px;
     height: 24px;
     cursor: pointer;
+}
+
+@media (max-width: 1075px)
+{
+    .header-area
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+}
+
+
+@media (max-width: 395px)
+{
+    .header-rigth input
+    {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 333px)
+{
+    .header-rigth input
+    {
+        width: 33vw;
+    }
 }
